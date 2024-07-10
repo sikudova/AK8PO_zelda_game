@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dp763nfn8ijdr"]
+
+[ext_resource type="Script" path="res://Scripts/GUI/camera_panning.gd" id="1_1nwkj"]
+
+[node name="camera_panning" type="Camera2D" node_paths=PackedStringArray("player")]
+anchor_mode = 0
+zoom = Vector2(3, 3)
+script = ExtResource("1_1nwkj")
+player = NodePath("")
